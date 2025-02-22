@@ -1,0 +1,45 @@
+<!-- <p>product works!</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Product Id</th>
+            <th>Product Name</th>
+            <th>Cost</th>
+            <th>Category</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (product of products; track product){
+            <tr>
+            <td>{{product.productId}}</td>
+            <td>{{product.productName}}</td>
+            <td>{{product.cost}}</td>
+            <td>{{product.category}}</td>
+            </tr>
+        }
+    </tbody>
+</table> -->
+
+
+<table>
+    <thead>
+        <tr>
+            <td>Title</td>
+            <td>Price</td>
+            <td>Brand</td>
+            <td>Category</td>
+        </tr>
+        </thead>
+        <tbody>
+            @for(product of productdata;track product){
+                <tr>
+                    <td>{{product.title}}</td>
+                    <td>{{product.price}}</td>
+                    <td>{{product.brand}}</td>
+                    <td>{{product.category}}</td>
+                </tr>
+            }
+        </tbody>
+</table>
+<p>{{ 'hello world' | customepipe }}</p>
