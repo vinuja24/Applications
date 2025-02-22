@@ -1,0 +1,150 @@
+/* .product-details {
+    display: flex;
+    margin: 20px;
+   
+  }
+  
+  .product-image {
+    flex: 1;
+  }
+  
+  .product-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .product-info {
+    flex: 2;
+    margin-left: 20px;
+   
+  }
+  
+  .product-info h2 {
+    font-size: 2em;
+    color: #8a007a;
+    margin-bottom: 10px;
+  }
+  
+  .product-info p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .product-info button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #8a007a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-info button:hover {
+    background-color: #740063;
+  }
+  
+  .wishlist {
+    background-color: transparent;
+    color: #8a007a;
+    border: 1px solid #8a007a;
+  }
+  
+  .wishlist.active {
+    color: red;
+    border-color: red;
+  }
+  
+  .heart-icon {
+    margin-left: 5px;
+  }
+   */
+
+
+
+
+   .product-details {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .product-image {
+    flex: 1;
+    max-width: 400px; /* Ensure the image section doesn't get too wide */
+  }
+  
+  .product-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .product-info {
+    flex: 2;
+    margin-left: 20px;
+    max-width: 600px; /* Control the width of the info section */
+  }
+  
+  .product-info h2 {
+    font-size: 2em;
+    color: #8a007a;
+    margin-bottom: 10px;
+  }
+  
+  .product-info p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .product-info .highlight {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .product-info .small-text {
+    font-size: 0.9em;
+    color: #999;
+  }
+  
+  .product-info .button-group {
+    margin-top: 20px;
+  }
+  
+  .product-info button {
+    padding: 8px 15px;
+    font-size: 0.9em;
+    color: #fff;
+    background-color: #8a007a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: auto; /* Button is no longer full-width */
+  }
+  
+  .product-info button:hover {
+    background-color: #740063;
+  }
+  
+  .wishlist {
+    background-color: transparent;
+    color: #8a007a;
+    border: 1px solid #8a007a;
+  }
+  
+  .wishlist.active {
+    color: red;
+    border-color: red;
+  }
+  
+  .heart-icon {
+    margin-left: 5px;
+  }
+  

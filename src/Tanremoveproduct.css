@@ -1,0 +1,134 @@
+/* 
+
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.product-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+.product-image {
+  max-width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.product-item h3 {
+  font-size: 1em;
+  margin-bottom: 8px;
+  color:  #8a007a;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+.product-item p {
+  font-size: 0.9em;
+  margin-bottom: 12px;
+  color: black;
+  word-wrap: break-word;
+}
+
+.product-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-item a:hover {
+  text-decoration: none;
+} */
+
+
+/* src/Tanremoveproduct.css */
+
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+.sidebar {
+  flex: 1;
+  max-width: 250px; /* Set a maximum width for the sidebar */
+  margin-right: 20px;
+}
+
+.main-content {
+  flex: 3;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.product-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+.product-image {
+  max-width: 100%;
+  height: 200px; /* Fixed height for better alignment */
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.product-item h3 {
+  font-size: 1em;
+  margin-bottom: 8px;
+  color: #8a007a;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+.product-item p {
+  font-size: 0.9em;
+  margin-bottom: 12px;
+  color: black;
+  word-wrap: break-word;
+}
+
+.product-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-item a:hover {
+  text-decoration: none;
+}
+

@@ -1,0 +1,71 @@
+/* Container for the ordered products section */
+.ordered-products {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .ordered-products h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  /* Container for each order summary */
+  .order-summary {
+    margin-bottom: 20px;
+  }
+  
+  /* Container for each order item */
+  .order-item-small {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .order-item-small:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .order-img-small {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 5px;
+  }
+  
+  .item-details-small {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .item-details-small span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .item-details-small strong {
+    color: #000;
+  }
+  
+  .item-details-small span:nth-of-type(2) {
+    font-size: 1.2rem;
+    color: #8a007a;
+  }
+  
+  .item-details-small span:nth-of-type(3) {
+    font-size: 0.9rem;
+    color:black;
+  }
+  
+
+  
+ 
+  

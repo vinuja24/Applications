@@ -1,0 +1,29 @@
+.order-success-container {
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .order-success-container h2 {
+    color: #8a007a;
+    font-size: 2rem;
+  }
+  
+  .order-success-container p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+  
+  .continue-shopping-button {
+    background-color: #8a007a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .continue-shopping-button:hover {
+    background-color: #8a007a;
+  }
+  

@@ -1,0 +1,84 @@
+/* Container Styling */
+.signin-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 100px;
+}
+
+/* Typography */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #333333;
+}
+
+/* Form and Input Fields */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin-bottom: 20px;
+  padding: 12px;
+  font-size: 18px;
+  border: 2px solid #cccccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus {
+  border-color: #8a007a;
+  box-shadow: 0 0 5px rgba(138, 0, 122, 0.5);
+  outline: none;
+}
+
+/* Error Message */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: -12px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+/* Button Styling */
+.signin-button {
+  padding: 12px;
+  background-color: #8a007a;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signin-button:hover {
+  background-color: #6d0060;
+}
+
+/* Link and Text Styling */
+p {
+  text-align: center;
+  margin-top: 25px;
+  font-weight: 700;
+  color: #333333;
+}
+
+p a {
+  color: #8a007a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p a:hover {
+  text-decoration: underline;
+  color: #6d0060;
+}
